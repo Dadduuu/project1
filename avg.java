@@ -1,23 +1,9 @@
-import java.util.Scanner;
-class avg
-{
-int a;
-	void getdata()
-	{
-		Scanner s=new Scanner(System.in);
-		System.out.println("enter number");
-		a=s.nextInt();
-		
-	}
-
-public static void main(String arr[])
-{
-even e=new even();
-e.getdata();
-if(e.a%2==0)
-System.out.println("number is even");
-else 
-System.out.println("number is odd");
+class HelloWorld 
+{ 
+    // Your program begins with a call to main(). 
+    // Prints "Hello, World" to the terminal window. 
+    public static void main(String args[]) 
+    { 
+        System.out.println("Hello, World"); 
+    } 
 }
-}
-
