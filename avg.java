@@ -1,5 +1,5 @@
 import java.util.Scanner;
-class even
+class avg
 {
 int a;
 	void getdata()
